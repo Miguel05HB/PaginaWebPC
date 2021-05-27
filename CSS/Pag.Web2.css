@@ -1,0 +1,369 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: mifuente;
+    src: url('../CSS/Fonts/FROSTBITE-Narrow\ Bold.ttf');
+}
+#nombre{
+    text-align: center;
+    font-family: "mifuente";
+    font-size: 73px;
+}
+@font-face {
+    font-family: subtitulo;
+    src: url('../CSS/Fonts/Minecraft\ Evenings.ttf');
+}
+#sub{
+    margin-left: -200px;
+    margin-top: -500px;
+    font-family: "subtitulo";
+    font-size: 42px;
+}
+#contenedor{
+    width: 900px;
+    margin: auto;
+}
+ul,ol{
+    list-style: none;
+}
+.barra > li{
+    float: left;
+}
+.barra li a{
+    background-color: #76B900;
+    color: white;
+    text-decoration: none;
+    padding: 18px 23px;
+    display: block;
+    text-align: center;
+}
+.barra li a:hover{
+    background-color: rgb(0, 0, 0);
+}
+.barra li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.barra li:hover > ul{
+    display: block;
+}
+.nav li ul li{
+    position: relative;
+}
+#logo{
+    margin-left: -1090px;
+    margin-top: -120px;
+    float: left;
+}
+.imagen{
+    width: 260px;
+    height: 200px;
+    border: 2px solid black;
+    margin-left: -200px;
+    margin-top: 50px;
+}
+.imagen2{
+    width: 260px;
+    height: 200px;
+    border: 2px solid black;
+    margin-left: 130px;
+    margin-top: -563px;
+    float: left;
+}
+.imagen3{
+    width: 260px;
+    height: 200px;
+    border: 2px solid black;
+    margin-left: 990px;
+    margin-top: -563px;
+    float: left;
+}
+.imagen4{
+    width: 260px;
+    height: 200px;
+    border: 2px solid black;
+    margin-left: 1310px;
+    margin-top: -563px;
+    float: left;
+}
+.imagen5{
+    width: 260px;
+    height: 200px;
+    border: 2px solid black;
+    margin-top: 80px;
+    margin-left: 330px;
+    float: left;
+}
+.imagen6{
+    width: 260px;
+    height: 200px;
+    border: 2px solid black;
+    margin-left: 657px;
+    margin-top: -560px;
+    float: left;
+}
+.imagen7{
+    width: 260px;
+    height: 200px;
+    border: 2px solid black;
+    margin-left: 990px;
+    margin-top: -560px;
+    float: left;
+}
+.imagen8{
+    width: 260px;
+    height: 200px;
+    border: 2px solid black;
+    margin-left: 1310px;
+    margin-top: -560px;
+    float: left;
+}
+.imagen9{
+    width: 260px;
+    height: 200px;
+    border: 2px solid black;
+    margin-left: 330px;
+    margin-top: 150px;
+    float: left;
+}
+.imagen10{
+    width: 260px;
+    height: 200px;
+    border: 2px solid black;
+    margin-left: 657px;
+    margin-top: -560px;
+    float: left;
+}
+.imagen11{
+    width: 260px;
+    height: 200px;
+    border: 2px solid black;
+    margin-left: 990px;
+    margin-top: -560px;
+    float: left;
+}
+.imagen12{
+    width: 260px;
+    height: 200px;
+    border: 2px solid black;
+    margin-left: 1310px;
+    margin-top: -560px;
+    float: left;
+}
+.imagen13{
+    width: 260px;
+    height: 200px;
+    border: 2px solid black;
+    margin-left: 330px;
+    margin-top: 106px;
+    float: left;
+}
+.imagen14{
+    width: 260px;
+    height: 200px;
+    border: 2px solid black;
+    margin-left: 657px;
+    margin-top: -573px;
+    float: left;
+}
+.imagen15{
+    width: 260px;
+    height: 200px;
+    border: 2px solid black;
+    margin-left: 990px;
+    margin-top: -573px;
+    float: left;
+}
+.imagen16{
+    width: 260px;
+    height: 200px;
+    border: 2px solid black;
+    margin-left: 1310px;
+    margin-top: -573px;
+    float: left;
+}
+.letra{
+    margin-left: -200px;
+}
+.boton{
+    width: 150px;
+    height: 80px;
+    margin-left: 65px;
+}
+.letra2{
+    margin-left: 655px;
+    margin-top: -355px;
+}
+.boton2{
+    width: 150px;
+    height: 80px;
+    margin-left: 65px;
+}
+.letra3{
+    margin-left: 990px;
+    margin-top: -355px;
+}
+.boton3{
+    width: 150px;
+    height: 80px;
+    margin-left: 65px;
+}
+.letra4{
+    margin-left: 1310px;
+    margin-top: -355px;
+}
+.boton4{
+    width: 150px;
+    height: 80px;
+    margin-left: 65px;
+}
+.letra5{
+    margin-left: 330px;
+    margin-top: 270px;
+}
+.boton5{
+    width: 150px;
+    height: 80px;
+    margin-left: 65px;
+}
+.letra6{
+    margin-left: 650px;
+    margin-top: -355px;
+}
+.boton6{
+    width: 150px;
+    height: 80px;
+    margin-left: 65px;
+}
+.letra7{
+    margin-left: 990px;
+    margin-top: -355px;
+}
+.boton7{
+    width: 150px;
+    height: 80px;
+    margin-left: 65px;
+}
+.letra8{
+    margin-left: 1310px;
+    margin-top: -355px;
+}
+.boton8{
+    width: 150px;
+    height: 80px;
+    margin-left: 65px;
+}
+.letra9{
+    margin-left: 330px;
+    margin-top: 340px;
+}
+.boton9{
+    width: 150px;
+    height: 80px;
+    margin-left: 65px;
+}
+.letra10{
+    margin-left: 655px;
+    margin-top: -373px;
+}
+.boton10{
+    width: 150px;
+    height: 80px;
+    margin-left: 65px;
+}
+.letra11{
+    margin-left: 990px;
+    margin-top: -373px;
+}
+.boton11{
+    width: 150px;
+    height: 80px;
+    margin-left: 65px;
+}
+.letra12{
+    margin-left: 1310px;
+    margin-top: -373px;
+}
+.boton12{
+    width: 150px;
+    height: 80px;
+    margin-left: 65px;
+}
+.letra13{
+    margin-left: 330px;
+    margin-top: 310px;
+}
+.boton13{
+    width: 150px;
+    height: 80px;
+    margin-left: 65px;
+}
+.letra14{
+    margin-left: 650px;
+    margin-top: -372px;
+}
+.boton14{
+    width: 150px;
+    height: 80px;
+    margin-left: 65px;
+}
+.letra15{
+    margin-left: 990px;
+    margin-top: -374px;
+}
+.boton15{
+    width: 150px;
+    height: 80px;
+    margin-left: 65px;
+}
+.letra16{
+    margin-left: 1310px;
+    margin-top: -374px;
+}
+.boton16{
+    width: 150px;
+    height: 80px;
+    margin-left: 65px;
+}
+body {
+	font-family: sans-serif;
+	font-size: 16px;
+	background: rgb(236,242,248);
+}
+input {
+	font:inherit;
+}
+section{
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+    margin-top: -320px;
+}
+form {
+	margin: auto;
+}
+form > div {
+	display: flex;
+	background:#fff;
+	padding: 9px 22px 9px 26px;
+	border-radius: 30px;
+	border:2px solid #6093c7;
+}
+form input {
+	border:none;
+	background: transparent;
+	font-weight: bold;
+	padding-left: 24px;
+	background-image: url(https://image.flaticon.com/icons/png/512/116/116836.png);
+	background-size: 16px;
+	background-repeat: no-repeat;
+	width: 0px;
+	transition: all 1s;
+}
+form input:focus {
+	outline: none;
+	width: 160px;
+}
